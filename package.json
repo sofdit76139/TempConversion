@@ -1,0 +1,24 @@
+{
+  "name": "TempConversion",
+  "version": "1.0.0",
+  "description": "Write two functions that convert temperatures from Fahrenheit to Celsius, and vice versa: ``` ftoc(32) // fahrenheit to celsius, should return 0",
+  "main": "tempConversion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofdit76139/TempConversion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofdit76139/TempConversion/issues"
+  },
+  "homepage": "https://github.com/sofdit76139/TempConversion#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}

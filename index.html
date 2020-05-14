@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div id="container">
+            <div id="temp-header">
+                <h1>Temperature Converter</h1>
+            </div>
+            <div id="user-instructions">
+                <p>This simple temperature converter tool lets you convert Fahrenheit to Celsius and vice versa. Simply enter the temperature, pick a radio button, then click "Convert".</p>
+                <p>Your input will be converted.</p>
+            </div>
+            <div id="user-entry">
+                <h2>Please pick the unit to convert from:</h2>
+                    <input type="radio" id="celsius" name="temperature" value="Celsius" checked>
+                    <label for="celsius">Celsius</label>
+                    <input type="radio" id="fahrenheit" name="temperature" value="Fahrenheit">
+                    <label for="fahrenheit">Fahrenheit</label>
+                <p>Please enter a temperature:</p>
+                    <input id="temp-input" type="text" placeholder="Enter a number"></input>
+                <p>Please note: only numbers are allowed. Numbers with decimals can be entered, but the converted temperature is rounded to the nearest decimal point.</p>
+                    <button id="convert-temp">Convert</button>
+                    <button id="reset-button">Reset</button>
+            </div>
+            <div id="converted-temperature-header">
+               <h2>Here's the converted temperature:</h2> 
+            </div>
+            <div id="converted-temperature">
+            </div>
+        </div>
+        <script src="tempConversion.js" async></script>
+    </body>
+</html>
